@@ -17,13 +17,23 @@ See also `requirements.txt`.
 
 ## Installation
 
+Only tested on Ubuntu 16.04.
+
 ```
 ./install
 ```
 
 ## Usage
 
-TODO add example notebook
+A Jupyter notebook gives [example usage](example_usage.ipynb).
+
+## Support
+
+Unfortunately, we are not able to maintain this repository and provide intensive support on the use of this software.  If you've any short questions, however, we'd be pleased to help (contact user@domain where `user=benjamin` and `domain=lateral.io`).
+
+## Related Projects
+
++ The excellent [LightFM](https://github.com/lyst/lightfm), written by Maciej Kula.
 
 ## References
 

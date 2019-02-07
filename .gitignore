@@ -2,5 +2,6 @@ __pycache__/*
 build/*
 *.c
 *.so
+*.pyc
 percentile_ranks.png
 recommendation_rates.png
