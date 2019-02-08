@@ -2,6 +2,11 @@
 
 A bipartite factorisation machine with a modified WARP loss [1] for hybrid recommendation, written in Cython.  Once used at Lateral for recommendation at scale.  No longer maintained.
 
+## What is hybrid recommendation?
+
+Hybrid recommendation is the combination of content- and behavioural- information in a recommendation model.
+Thus when an item is to be recommended depends not on who has interacted with it, but also on its content (e.g. words in its description, its tags, etc).
+
 ## Not exactly WARP!
 
 The implementation deviates from the standard in that it uses a sigmoid activation, a multiplicative margin, and a log-likelihood style updates.  These modifications were justified by (unpublished, internal) performance improvements on customer datasets.
